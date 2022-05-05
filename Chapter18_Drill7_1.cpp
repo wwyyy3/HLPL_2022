@@ -6,7 +6,7 @@ void f(const int a[], int n)//2,3
     int la[10];
     //b
     for (int i = 0; i<10; ++i)
-        la[i] = a[i];
+        la[i] = ga[i];
     //c
     for (int i = 0; i<10; ++i)
         cout<<la[i]<<" ";

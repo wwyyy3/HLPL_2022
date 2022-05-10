@@ -25,7 +25,7 @@ int main(){
     int x = 7;
     int y =9;
     cout<<"x="<<x<<" y=" <<y<<endl;
-    swap_v(x,y);//x and y is local od swap_v
+    swap_v(x,y);//x and y is local value swap_v
     cout<<x<<y<<endl; //so they are not change
     swap_r(x, y);
     cout<<x<<y<<endl;
@@ -40,7 +40,7 @@ int main(){
     const int cy = 9;
     cout<<"cx="<<cx<<" cy=" <<cy<<endl;
     swap_v(cx,cy);
-    cout<<cx<<cy<<endl;//cx and cy is local od swap_v
+    cout<<cx<<cy<<endl;//cx and cy is local value swap_v
     //swap_r(cx,cy); error: we can not change the constant value
     
     swap_v(7.7,9.9);
@@ -53,7 +53,7 @@ int main(){
     double dx = 7.7;
     double dy = 9.9;
     cout<<"dx="<<cx<<" dy=" <<cy<<endl;
-    swap_v(dx,dy);//dx and dy is local od swap_v
+    swap_v(dx,dy);//dx and dy is local value swap_v
     cout<<dx<<dy<<endl;
     //swap_r(dx, dy);--dx and dy are double, and swap_r is int
     

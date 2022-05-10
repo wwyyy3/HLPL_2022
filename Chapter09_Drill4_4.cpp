@@ -61,28 +61,7 @@ public:
     Year get_year(){return year;}
 };
 
-/*Date::Date(Year y, Month m, int d){
-    // check that (y,m,d) is a valid date
-    // if it is, use it to initialize dd
-    if( y > 0 )
-        year = y;
-    else error("Wrong year");
-    
-    if (m >0 && m < 13 )
-        month = m;
-    else error("Wrong month");
-    
-    if (m ==1|| m==3||m==5||m==7||m==8||m==10||m==12){
-        if (d > 0 && d < 32)
-            day = d;
-    else if(m ==2|| m==4||m==6||m==9||m==11)
-        if (d > 0 && d < 31)
-            day =d;
-    else error("Wrong day");
-    }
-}
 
-*/
 void Date::add_day(int n)
 {
     // increase dd by n days

@@ -13,7 +13,7 @@ void swap_r(int& a,int& b){
     b = temp;
 }
 /*
-void swap_cr(const int& a,const int& b){
+void swap_cr(const int& a,const int& b){ //read only
     int temp;
     temp = a;
     a = b; //a is a constant that cannot be modified

@@ -46,8 +46,7 @@ int main(){
     swap_v(7.7,9.9);
     cout<<cx<<cy<<endl;//only output the integer,because (int a,int b)
     //swap_r(7.7,9.9); -->reference argument r needs a variable to refer to
-    //swap_cr(7.7,9.7);-->this is ok, if we make some change for swap_cr
-                        //since cr is const we can pass a literal
+    //swap_cr(7.7,9.7);-->we can not change constant vaule
     
     //----------
     double dx = 7.7;
